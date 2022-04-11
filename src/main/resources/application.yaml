@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5444/dimaKrutoi-api
+    username: microAdmin
+    password: microPass
+

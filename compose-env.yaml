@@ -1,0 +1,11 @@
+version: '3'
+services:
+  db-microService-api:
+      image: postgres:14.2
+      restart: always
+      ports:
+        - 5444:5432
+      environment:
+        POSTGRES_PASSWORD : microPass
+        POSTGRES_USER : microAdmin
+        POSTGRES_DB : dimaKrutoi-api
