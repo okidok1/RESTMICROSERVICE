@@ -3,4 +3,7 @@ spring:
     url: jdbc:postgresql://localhost:5444/dimaKrutoi-api
     username: microAdmin
     password: microPass
-
+  kafka:
+    bootstrap-servers: "localhost:9092"
+    consumer:
+      group-id: "kafkaListener-group"
