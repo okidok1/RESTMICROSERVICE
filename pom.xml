@@ -154,8 +154,14 @@
 			<version>4.9.3</version>
 		</dependency>
 
+		<dependency>
+			<groupId>com.example</groupId>
+			<artifactId>custom-spring-boot-starter</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 
-	</dependencies>
+
+    </dependencies>
 
 	<build>
 		<plugins>
